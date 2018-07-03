@@ -13,6 +13,9 @@
 		9C60E27920EB1E2700062F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C60E27820EB1E2700062F42 /* Assets.xcassets */; };
 		9C60E27C20EB1E2700062F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C60E27A20EB1E2700062F42 /* LaunchScreen.storyboard */; };
 		9C60E27F20EB1E2700062F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60E27E20EB1E2700062F42 /* main.m */; };
+		9C60E28720EB1E5000062F42 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60E28620EB1E5000062F42 /* CustomFlowLayout.m */; };
+		9C60E28B20EB22A000062F42 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60E28920EB22A000062F42 /* PhotoCell.m */; };
+		9C60E28C20EB22A000062F42 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C60E28A20EB22A000062F42 /* PhotoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		9C60E27B20EB1E2700062F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C60E27D20EB1E2700062F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C60E27E20EB1E2700062F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C60E28520EB1E5000062F42 /* CustomFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		9C60E28620EB1E5000062F42 /* CustomFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		9C60E28820EB22A000062F42 /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		9C60E28920EB22A000062F42 /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		9C60E28A20EB22A000062F42 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,13 @@
 			children = (
 				9C60E26F20EB1E2600062F42 /* AppDelegate.h */,
 				9C60E27020EB1E2600062F42 /* AppDelegate.m */,
+				9C60E28520EB1E5000062F42 /* CustomFlowLayout.h */,
+				9C60E28620EB1E5000062F42 /* CustomFlowLayout.m */,
 				9C60E27220EB1E2600062F42 /* ViewController.h */,
 				9C60E27320EB1E2600062F42 /* ViewController.m */,
+				9C60E28820EB22A000062F42 /* PhotoCell.h */,
+				9C60E28920EB22A000062F42 /* PhotoCell.m */,
+				9C60E28A20EB22A000062F42 /* PhotoCell.xib */,
 				9C60E27520EB1E2600062F42 /* Main.storyboard */,
 				9C60E27820EB1E2700062F42 /* Assets.xcassets */,
 				9C60E27A20EB1E2700062F42 /* LaunchScreen.storyboard */,
@@ -128,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C60E28C20EB22A000062F42 /* PhotoCell.xib in Resources */,
 				9C60E27C20EB1E2700062F42 /* LaunchScreen.storyboard in Resources */,
 				9C60E27920EB1E2700062F42 /* Assets.xcassets in Resources */,
 				9C60E27720EB1E2600062F42 /* Main.storyboard in Resources */,
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C60E27420EB1E2600062F42 /* ViewController.m in Sources */,
+				9C60E28B20EB22A000062F42 /* PhotoCell.m in Sources */,
 				9C60E27F20EB1E2700062F42 /* main.m in Sources */,
+				9C60E28720EB1E5000062F42 /* CustomFlowLayout.m in Sources */,
 				9C60E27120EB1E2600062F42 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
